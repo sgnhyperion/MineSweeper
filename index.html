@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="mines-count">Mines : 0</h1>
+        <div id="board"></div>
+        <button id="flag">🚩</button>
+    </div>
+    <div class="rules">
+        <h2>Rules</h2>
+        <p>1. Click on a cell to reveal it.</p>
+        <p>2. click on the flag button to flag a mine.</p>
+        <p>3. If you reveal a mine, you lose.</p>
+        <p>4. If you reveal all cells without mines, you win.</p>
+        <p>5. Click on the Pause button to pause the music</p>
+    </div>
+    <audio src="Sakura-Girl-First-Snow-chosic.com_.mp3" id="music"></audio>
+    <button id="pause-music">Pause Music</button>
+    <script src="script.js"></script>
+</body>
+</html>

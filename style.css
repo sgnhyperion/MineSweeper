@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    position: relative;
+    left:200px;
+}
+.rules{
+    position: relative;
+    right:1100px;
+    bottom: 200px;
+    border:1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height:300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px #34db34;
+    background-color: #3482db5b;
+    /* display: none; */
+    font-weight: 50px;
+}
+#board{
+    height: 400px;
+    width:400px;
+    border: 10px solid rgb(12, 113, 228);
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#board div{
+    width: 48px;
+    height: 48px;
+    border: 0.3px solid rgb(111, 155, 223);
+
+    /* text */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board div:hover{
+    cursor: pointer;
+}
+
+#flag{
+    height: 30px;
+    width:70px;
+    border:1px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#flag:hover{
+    /* transition: 0.5s ease-in-out; */
+    background-color: #3482db10;
+    box-shadow: 0 0 10px #34db34;
+}
+.box:hover{
+    background-color: rgba(236, 231, 231, 0.61);
+}
+#audioPlayer{
+    display: none;
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: navy;
+}
+
+.x5 {
+    color: brown;
+}
+
+.x6 {
+    color: teal;
+}
+
+.x7 {
+    color: black;
+}
+
+.x8 {
+    color: gray;
+}
+
+#pause-music{
+    height: 30px;
+    width: 150px;
+    border: 2px solid #3482db;    
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
+    background-color: #3482db10;
+}
+#pause-music:hover{
+    background-color: #3482db20;
+    box-shadow: 0 0 10px #34db34;
+}
+
